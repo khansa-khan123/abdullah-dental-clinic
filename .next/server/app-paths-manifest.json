@@ -1,0 +1,9 @@
+{
+  "/auth/login/page": "app/auth/login/page.js",
+  "/api/appointments/route": "app/api/appointments/route.js",
+  "/(public)/page": "app/(public)/page.js",
+  "/(portal)/admin/dashboard/page": "app/(portal)/admin/dashboard/page.js",
+  "/(portal)/patient/dashboard/page": "app/(portal)/patient/dashboard/page.js",
+  "/(portal)/patient/book/page": "app/(portal)/patient/book/page.js",
+  "/(portal)/patient/payments/page": "app/(portal)/patient/payments/page.js"
+}

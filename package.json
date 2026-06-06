@@ -1,0 +1,49 @@
+{
+  "name": "abdullah-dental-clinic",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:push": "prisma db push",
+    "db:generate": "prisma generate",
+    "db:seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@prisma/client": "^5.13.0",
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-toast": "^1.1.5",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/react-datepicker": "^6.2.0",
+    "autoprefixer": "^10.4.19",
+    "bcryptjs": "^2.4.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "framer-motion": "^11.1.7",
+    "lucide-react": "^0.378.0",
+    "next": "14.2.3",
+    "next-auth": "^4.24.7",
+    "postcss": "^8.4.38",
+    "prisma": "^5.13.0",
+    "react": "^18",
+    "react-datepicker": "^6.6.0",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.3",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss": "^3.4.1",
+    "twilio": "^5.0.4",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
