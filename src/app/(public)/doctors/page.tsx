@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { prisma } from '@/lib/prisma';
 import { Star, Calendar, Clock, Award, CheckCircle, Phone } from 'lucide-react';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   title: 'Our Doctors',
   description: 'Meet our team of expert dental professionals at Abdullah Dental Clinic.',

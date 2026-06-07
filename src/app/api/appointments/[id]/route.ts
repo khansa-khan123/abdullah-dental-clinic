@@ -8,6 +8,8 @@ import {
 } from '@/lib/sms';
 import { formatDate, formatTime } from '@/lib/utils';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
   try {
     const session = await getServerSession(authOptions);
