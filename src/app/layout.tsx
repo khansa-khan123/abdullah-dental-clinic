@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import "../app/globals.css";
+import "./globals.css";
 import { Providers } from './providers';
 
 export const metadata: Metadata = {
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   },
   description:
     'Abdullah Dental Clinic - Professional dental care you can trust. Book appointments, check doctor availability, and manage your dental health.',
-  keywords: ['dental clinic', 'dentist', 'teeth', 'oral health', 'Abdullah Dental'],
+  keywords:['dental clinic', 'dentist', 'teeth', 'oral health', 'Abdullah Dental'],
   authors: [{ name: 'Abdullah Dental Clinic' }],
   openGraph: {
     title: 'Abdullah Dental Clinic',
